@@ -66,7 +66,7 @@ class BookingSystem:
             services[service] = services.get(service, 0) + 1
 
         report = f"""
-        === Booking Analytics Report ===
+        ===== Booking Analytics Report =====
         Total Bookings: {total_bookings}
         
         Services Breakdown:
